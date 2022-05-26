@@ -135,7 +135,6 @@ header h1 {
     text-align: center;
     color: #666666;
     text-shadow: 0 0 3px #404040, 0 0 10px #00aa30, 0 0 20px #404040, 0 0 30px #505050;
-    animation: .05s shake infinite alternate;
 }
 
 @keyframes shake {
@@ -145,6 +144,12 @@ header h1 {
     15% { transform: skewX(45deg); }
     20% { transform: skewX(5deg); }
     100% { transform: skewX(-5deg); }
+}
+
+@media only screen and (min-width: 601px) {
+    .article1 .glitch {
+        animation: .05s shake infinite alternate;
+    }
 }
 
 .article1 .logEntry {
