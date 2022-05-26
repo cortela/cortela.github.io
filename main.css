@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Roboto&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Exo+2&family=Roboto&family=Roboto+Mono:wght@100&display=swap');
 
 ::-webkit-scrollbar {
     display: none;
@@ -210,3 +210,20 @@ header h1 {
     font-style: italic;
 }
 /* /Article 3: end */
+
+/* Article 4: end */
+.article4 p {
+    font-family: 'Exo 2', monospace;
+    font-size: 1.0em;
+    color: #ff8100;
+    text-shadow: 0 0 5px #ffb400;
+}
+
+.article4 .dialog p {
+    margin: 0.250em 0 0.250em 0;
+}
+
+.article4 .dialog .main {
+    font-family: serif;
+}
+/* /Article 4: end */
