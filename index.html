@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>. -- .--. - -.--</title>
+        <title>&#65279;</title>
 
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <meta charset='UTF-8'>
-        <meta name='author' content='cortela'>
         <meta name='robots' content='noindex, nofollow'>
 
         <link rel='stylesheet' href='main.css'>
     </head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <body> 
-        <header>
-            <h1>. -- .--. - -.--</h1>
-        </header>
+        <header></header>
 
         <div class='content'>
             <!-- Article # -->
@@ -26,5 +26,44 @@
             -->
             <!-- /Article # -->
         </div>
+
+        <footer>
+            <span class='previousArrow'>&#10148;</span>
+            <span class='nextArrow'>&#10148;</span>
+        </footer>
+
+        <script>
+            const numberOfArticles = $('article').length;
+
+            function showArticle(target) {
+                let visibleArticleId = $('article:visible').attr('id');
+                let showArticleId = parseInt(eval(visibleArticleId) + target);
+
+                showArticleId = showArticleId == 0 ? numberOfArticles : showArticleId;
+                showArticleId = showArticleId > numberOfArticles ? 1 : showArticleId;
+
+                document.location = document.location.pathname + '?article=' + showArticleId;
+                $('article:visible').hide();
+                $('#' + showArticleId).show();
+                scroll(0,0);
+            }
+
+            $('.previousArrow,.nextArrow').click(function(e) {
+                e.target.className == 'nextArrow' ? showArticle(1) : showArticle(-1);
+            });
+
+            $(document).ready(function() {
+                let searchParams = new URLSearchParams(window.location.search);
+                if (searchParams.has('article')) {
+                    let articleNumber = searchParams.get('article');
+                    $('article:visible').hide();
+                    if (articleNumber > 0 && articleNumber <= numberOfArticles) {
+                        $('#' + searchParams.get('article')).show();
+                    } else {
+                        $('#' + numberOfArticles).show();
+                    }
+                }
+            });
+        </script>
     </body>
 </html>
