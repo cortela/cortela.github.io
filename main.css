@@ -79,6 +79,10 @@ footer .nextArrow {
     cursor: pointer;
 }
 
+footer .pageCounter {
+    font-size: 0.438em;
+}
+
 header {
     border-bottom: 2px solid;
     height: 10%;

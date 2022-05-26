@@ -195,8 +195,9 @@
             <!-- /Article # -->
         </div>
 
-        <footer>
+        <footer style='text-align:center'>
             <span class='previousArrow'>&#10148;</span>
+            <span class='pageCounter'></span>
             <span class='nextArrow'>&#10148;</span>
         </footer>
 
@@ -231,6 +232,8 @@
                         $('#' + numberOfArticles).show();
                     }
                 }
+
+                $('.pageCounter').html($('article:visible').attr('id') + '/' + numberOfArticles);
             });
         </script>
     </body>
