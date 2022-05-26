@@ -89,6 +89,87 @@ header h1 {
     text-align: center;
 }
 
-.article1 {
-    font-family: 'Roboto';
+.text-center {
+    text-align: center;
 }
+
+.text-right {
+    text-align: right;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-noident {
+    text-indent: 0 !important;
+}
+
+
+/* -------- */
+
+/* Article 1: loop */
+.article1 {
+    font-family: 'Caveat', cursive;
+    font-size: 2.0em;
+}
+
+@media only screen and (max-width: 600px) {
+    .article1 {
+        font-family: 'Caveat', cursive, monospace;
+        font-size: 1.5em;
+    }
+}
+
+.article1 p {
+    text-indent: 1.5em;
+}
+
+.article1 .logEntry {
+    font-style: italic;
+    text-decoration: underline;
+    text-align: right;
+}
+
+.article1 .report {
+    border: solid 1px white;
+    padding: 0.1em;
+}
+
+.article1 .report p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.5em;
+    text-indent: 0;
+}
+/* /Article 1: loop */
+
+/* Article 2: love */
+.article2 p {
+    text-indent: 1.5em;
+    color: #aaffaa;
+    text-shadow: 0 0 3px #80ffc0, 0 0 10px #00ff66, 0 0 20px #00ff66, 0 0 30px #00ff66;
+}
+
+@media only screen and (max-width: 600px) {
+    .article2 p {
+        color: #aaffaa;
+        text-shadow: 0 0 1px #80ffc0, 0 0 2px #00ff66, 0 0 4px #00ff66, 0 0 6px #00ff66;
+    }
+}
+
+.article2 .dialog {
+    text-indent: 0;
+    padding: 1.5em;
+    border: dashed 1px green;
+}
+
+.article2 .thought {
+    font-size: 0.75em;
+    font-style: italic;
+    text-align: right;
+}
+/* /Article 2: love */
