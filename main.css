@@ -14,15 +14,20 @@ body {
     word-break: break-word;
 }
 
+p {
+    text-indent: 4em;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         font-size: 18px;
     }
+
+    p {
+        text-indent: 2em;
+    }
 }
 
-p {
-    text-indent: 4em;
-}
 
 .content {
     height: 85%;
@@ -123,7 +128,6 @@ header h1 {
 
 @media only screen and (max-width: 600px) {
     .article1 {
-        font-family: 'Caveat', cursive, monospace;
         font-size: 1.5em;
     }
 }
