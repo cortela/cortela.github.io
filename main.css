@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Exo+2&family=Roboto&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Comfortaa&family=Exo+2&family=Roboto&family=Roboto+Mono:wght@100&display=swap');
 
 ::-webkit-scrollbar {
     display: none;
@@ -27,7 +27,6 @@ p {
         text-indent: 2em;
     }
 }
-
 
 .content {
     height: 85%;
@@ -120,6 +119,17 @@ header h1 {
 
 /* -------- */
 
+@keyframes shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(0deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(45deg); }
+    20% { transform: skewX(5deg); }
+    100% { transform: skewX(-5deg); }
+}
+
+/* -------- */
+
 /* Article 1: loop */
 .article1 {
     font-family: 'Caveat', cursive;
@@ -143,15 +153,6 @@ header h1 {
     color: #666666;
     text-shadow: 0 0 3px #404040, 0 0 10px #00aa30, 0 0 20px #404040, 0 0 30px #505050;
     animation: .05s shake infinite alternate;
-}
-
-@keyframes shake {
-    0% { transform: skewX(-15deg); }
-    5% { transform: skewX(0deg); }
-    10% { transform: skewX(-15deg); }
-    15% { transform: skewX(45deg); }
-    20% { transform: skewX(5deg); }
-    100% { transform: skewX(-5deg); }
 }
 
 .article1 .logEntry {
@@ -227,3 +228,22 @@ header h1 {
     font-family: serif;
 }
 /* /Article 4: end */
+
+/* Article 5: kiara */
+.article5 p {
+    font-family: 'Comfortaa', cursive;
+}
+
+.article5 .dialog p {
+    margin: 0.250em 0 0.250em 0;
+    color: #aaaaaa;
+}
+
+.article5 .glitch {
+    font-size: 1.750em;
+    text-indent: 0 !important;
+    text-align: center;
+    text-shadow: 0 0 3px #aa0000, 0 0 10px #bb0000, 0 0 20px #cc0000, 0 0 30px #dd0000;
+    animation: .6s shake infinite alternate-reverse;
+}
+/* /Article 5: kiara */
