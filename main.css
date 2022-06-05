@@ -247,3 +247,78 @@ header h1 {
     animation: .6s shake infinite alternate-reverse;
 }
 /* /Article 5: kiara */
+
+/* Article 6: z */
+.article6 p {
+    font-family: 'Exo 2', monospace;
+}
+
+.article6 .dialog p {
+    margin: 0.250em 0 0.250em 0;
+}
+
+.article6 .diary {
+    text-indent: 0;
+    padding: 0 1.5em 0 1.5em;
+    border: solid 1px white;
+}
+
+.article6 .diary p {
+    text-indent: 0;
+}
+
+.article6 .finaldialog {
+    text-indent: 0;
+    padding: 0 1.5em 0 1.5em;
+    border: dashed 5px white;
+}
+
+.article6 .finaldialog p {
+    text-indent: 0;
+    margin: 0.250em 0 0.250em 0;
+}
+
+
+.article6 .thinking {
+    text-indent: 0;
+    padding: 0 1.5em 0 1.5em;
+    border: dashed 1px white;
+}
+
+.article6 .thinking p {
+    text-indent: 0;
+}
+
+.article6 .glitch {
+    text-indent: 0 !important;
+    animation: .6s shake infinite alternate-reverse;
+}
+
+.article6 .w {
+    color: #dd0000;
+}
+
+.article6 .wx {
+    background: -webkit-linear-gradient(#00dd00, #dd0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.article6 .x {
+    color: #00dd00;
+}
+
+.article6 .xy {
+    background: -webkit-linear-gradient(#0000dd, #00dd00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.article6 .y {
+    color: #0000dd;
+}
+
+.article6 .z {
+    color: #dddddd;
+}
+/* /Article 6: z */
