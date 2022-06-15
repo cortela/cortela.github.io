@@ -29,8 +29,7 @@ p {
 }
 
 .content {
-    height: 85%;
-    margin: 0 15% 0 15%;
+    margin: 0 15% 5% 15%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -68,6 +67,10 @@ footer {
     background: black;
     border-top: 1px solid;
     height: 5%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-sizing: border-box;
 }
 
 footer .previousArrow {
