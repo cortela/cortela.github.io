@@ -76,7 +76,6 @@ footer .previousArrow {
     float: left;
     margin-left: 5%;
     cursor: pointer;
-    transform: scale(-1,-1);
 }
 
 footer .nextArrow {
