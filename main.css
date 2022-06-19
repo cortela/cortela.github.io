@@ -323,3 +323,22 @@ header h1 {
     color: #dddddd;
 }
 /* /Article 6: z */
+
+/* Article 7: table */
+.article7 p {
+    font-family: 'Exo 2', monospace;
+    font-size: 1.0em;
+}
+
+.article7 .dialog p {
+    margin: 0.250em 0 0.250em 0;
+    color: #aaaaaa;
+}
+
+.article7 .main {
+    font-family: serif;
+    font-style: italic;
+    color: #ffffff !important;
+    text-shadow: 0 0 5px #aaffff;
+}
+/* /Article 7: table */
