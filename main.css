@@ -342,3 +342,34 @@ header h1 {
     text-shadow: 0 0 5px #aaffff;
 }
 /* /Article 7: table */
+
+/* Article 8: peters */
+.article8 p {
+    font-family: 'Exo 2', monospace;
+    font-size: 1.0em;
+}
+
+.article8 .dialog p {
+    margin: 0.250em 0 0.250em 0;
+    color: #00cc00;
+}
+
+.article8 .glitch {
+    font-size: 1.2em;
+    color: #666666 !important;
+    text-shadow: 0 0 3px #404040, 0 0 10px #00aa30, 0 0 20px #404040, 0 0 30px #505050;
+    animation: .1s shake infinite alternate;
+}
+
+.article8 .main {
+    font-family: serif;
+    font-style: italic;
+    color: #ffffff !important;
+    text-shadow: 0 0 5px #22ff22;
+}
+
+.article8 .risa {
+    font-family: monospace;
+    color: #006600 !important;
+}
+/* /Article 8: peters */
