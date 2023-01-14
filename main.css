@@ -373,3 +373,20 @@ header h1 {
     color: #006600 !important;
 }
 /* /Article 8: peters */
+
+/* --- tests/temporary --- */
+
+/* a.n.n.a */
+.anna .report {
+    border: solid 1px white;
+    padding: 0.1em;
+}
+
+.anna .report p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9em;
+    text-indent: 0;
+}
+/* /a.n.n.a */
+
+/* --- tests/temporary --- */
